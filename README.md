@@ -1,5 +1,4 @@
 <pre><code>
-@php
 @session_save_path($_SERVER['DOCUMENT_ROOT'] . "/data/session");
 @session_start();
 
@@ -45,5 +44,4 @@ imagedestroy($image);
 ////imagestring($img, 7, 50, 10, $captcha, 0x000000); //문자 여백, 문자색상
 //imagegif($img);
 //imagedestroy($img);
-@php
 </code></pre>
